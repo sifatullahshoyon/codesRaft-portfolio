@@ -8,7 +8,7 @@ import heroImg from "../../assets/images/hero/hero.png";
 
 const Hero = () => {
   return (
-    <div className="relative bg-[#19191b]">
+    <div className="relative bg-[#19191b] ">
       <Navbar />
       {/* left side glow effect */}
       <div className="hero"></div>
@@ -16,7 +16,7 @@ const Hero = () => {
       <div className="hero-two"></div>
       <Container>
         {/* content */}
-        <div className="md:flex md:justify-between justify-center gap-8 items-center px-4 space-y-6">
+        <div className="md:flex md:justify-between justify-center gap-6 items-center px-4 space-y-6 h-[70vh]">
           <div>
             <SparklesText className="text-white tracking-wide">
               Hello
@@ -40,7 +40,7 @@ const Hero = () => {
             <img
               src={heroImg}
               alt="hero img"
-              className="max-w-[600px] w-[400px]"
+              className="md:max-w-[700px] w-[400px] mb-6  md:mb-0"
             />
           </div>
         </div>
