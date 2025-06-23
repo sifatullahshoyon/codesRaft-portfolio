@@ -11,22 +11,25 @@ import Container from "../../components/shared/Container";
 const Brand = () => {
   return (
     <section className="mt-16">
-      {" "}
       <Container>
         <Marquee>
-          <div className="flex flex-row justify-between items-center gap-6">
+          <div className="flex flex-row justify-between items-center gap-6 pr-6">
             <img src={img1} alt="img 1" />
-            <img src={img2} alt="img 1" />
-            <img src={img3} alt="img 1" />
-            <img src={img4} alt="img 1" />
-            <img src={img5} alt="img 1" />
+            <img src={img2} alt="img 2" />
+            <img src={img3} alt="img 3" />
+            <img src={img4} alt="img 4" />
+            <img src={img5} alt="img 5" />
+            <img src={img6} alt="img 6" />
+            <img src={img7} alt="img 7" />
           </div>
           <div className="flex flex-row justify-between items-center gap-6">
             <img src={img1} alt="img 1" />
-            <img src={img2} alt="img 1" />
-            <img src={img3} alt="img 1" />
-            <img src={img4} alt="img 1" />
-            <img src={img5} alt="img 1" />
+            <img src={img2} alt="img 2" />
+            <img src={img3} alt="img 3" />
+            <img src={img4} alt="img 4" />
+            <img src={img5} alt="img 5" />
+            <img src={img6} alt="img 6" />
+            <img src={img7} alt="img 7" />
           </div>
         </Marquee>
       </Container>
