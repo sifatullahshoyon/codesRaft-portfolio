@@ -1,5 +1,6 @@
 import AboutMe from "./AboutMe";
 import Brand from "./Brand";
+import ContactMe from "./ContactMe";
 import Hero from "./Hero";
 import Projects from "./Projects";
 import { Review } from "./Review";
@@ -14,6 +15,7 @@ const Home = () => {
       <WhatIDo />
       <Projects />
       <Review />
+      <ContactMe />
     </>
   );
 };
