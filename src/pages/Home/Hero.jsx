@@ -1,6 +1,6 @@
 import { ArrowDown, ArrowUpRight } from "lucide-react";
 import Container from "../../components/shared/Container";
-import { Navbar } from "../../components/shared/Navbar";
+// import { Navbar } from "../../components/shared/Navbar";
 import { Button } from "../../components/ui/button";
 import "../../Style/hero.css";
 import { SparklesText } from "@/components/magicui/sparkles-text";
@@ -9,7 +9,7 @@ import heroImg from "../../assets/images/hero/hero.png";
 const Hero = () => {
   return (
     <div className="relative bg-[#19191b] ">
-      <Navbar />
+      {/* <Navbar /> */}
       {/* left side glow effect */}
       <div className="hero"></div>
       {/* right side glow effect */}
