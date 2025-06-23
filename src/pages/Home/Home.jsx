@@ -1,6 +1,7 @@
 import AboutMe from "./AboutMe";
 import Brand from "./Brand";
 import Hero from "./Hero";
+import Projects from "./Projects";
 import WhatIDo from "./WhatIDo";
 
 const Home = () => {
@@ -10,6 +11,7 @@ const Home = () => {
       <AboutMe />
       <Brand />
       <WhatIDo />
+      <Projects />
     </>
   );
 };
