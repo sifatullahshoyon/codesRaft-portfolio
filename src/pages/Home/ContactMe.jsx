@@ -11,7 +11,7 @@ const ContactMe = () => {
       <Container>
         <div className="md:flex md:flex-row items-center justify-between gap-8 space-y-16 lg:space-y-0">
           {/* Text Section */}
-          <div className="relative w-full md:w-1/2">
+          <div data-aos="fade-right" className="relative w-full md:w-1/2">
             <h1 className="text-6xl text-white font-bold pb-6 ">
               Let's <br />
               <span className="text-[#5454D4]">Connect.</span>
@@ -26,7 +26,7 @@ const ContactMe = () => {
             </div>
           </div>
           {/* Contact Form Section */}
-          <div className="w-full md:w-1/2">
+          <div data-aos="fade-left" className="w-full md:w-1/2">
             <Card className="border-0 w-4/5 bg-[#202024]">
               <CardContent>
                 <form>

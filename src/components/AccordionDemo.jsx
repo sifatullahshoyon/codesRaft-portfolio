@@ -50,7 +50,10 @@ const faqItems = [
 
 export function AccordionDemo() {
   return (
-    <div className="flex flex-col items-center justify-center px-4 py-8 mx-auto">
+    <div
+      data-aos="fade-left"
+      className="flex flex-col items-center justify-center px-4 py-8 mx-auto"
+    >
       <div className="text-center mb-12">
         <h2 className="text-3xl font-bold tracking-tight sm:text-4xl text-white">
           Frequently Asked <span className="text-[#5454D4]">Questions</span>

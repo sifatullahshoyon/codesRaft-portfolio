@@ -10,7 +10,10 @@ export function Footer() {
   return (
     <footer>
       <Container>
-        <div className="grid gap-12 md:grid-cols-2 lg:grid-cols-4">
+        <div
+          data-aos="fade-up"
+          className="grid gap-12 md:grid-cols-2 lg:grid-cols-4"
+        >
           {/* About Section */}
           <div className="space-y-4">
             <h3 className="text-xl font-bold text-white">ADAM/Z</h3>

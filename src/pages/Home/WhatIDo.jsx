@@ -12,7 +12,10 @@ const WhatIDo = () => {
   return (
     <section className="mt-16 px-4">
       <Container>
-        <div className="md:flex flex-wrap justify-center items-center gap-8 space-y-4 lg:space-y-0">
+        <div
+          data-aos="fade-left"
+          className="md:flex flex-wrap justify-center items-center gap-8 space-y-4 lg:space-y-0"
+        >
           <Card className="md:w-80 w-full border-0 bg-[#202024] shadow-xl">
             <CardHeader>
               <CardTitle>

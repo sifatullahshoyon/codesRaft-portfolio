@@ -15,8 +15,8 @@ export function Navbar() {
   ];
 
   return (
-    <Container>
-      <header className="sticky top-0 z-50 w-full  bg-transparent backdrop-blur ">
+    <header className="sticky top-0 z-50 w-full  bg-transparent backdrop-blur ">
+      <Container>
         <div className="container flex h-16 items-center justify-between px-4">
           {/* Logo */}
           <Link to="/" className="flex items-center space-x-2 text-white">
@@ -72,7 +72,7 @@ export function Navbar() {
             </Sheet>
           </div>
         </div>
-      </header>
-    </Container>
+      </Container>
+    </header>
   );
 }

@@ -6,7 +6,7 @@ import img3 from "../../assets/images/projects/img3.png";
 
 const Projects = () => {
   return (
-    <section className="mt-16 relative">
+    <section data-aos="fade-up" className="mt-16 relative">
       {/* glow effect */}
       <div className="hero-two"></div>
       <Container>

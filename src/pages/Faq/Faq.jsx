@@ -13,7 +13,7 @@ const Faq = () => {
       <Container>
         <div className="md:flex justify-between items-center gap-6 space-y-6 lg:space-y-0">
           {/* img */}
-          <div>
+          <div data-aos="fade-right">
             <img src={faq} alt="faq img" className="max-w-[500px]" />
           </div>
           {/* content */}

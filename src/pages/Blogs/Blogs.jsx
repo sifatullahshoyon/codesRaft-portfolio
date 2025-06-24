@@ -65,7 +65,7 @@ const blogPosts = [
 
 const Blogs = () => {
   return (
-    <section className="my-16 px-4 relative">
+    <section data-aos="fade-up" className="my-16 px-4 relative">
       {/* left side glow effect */}
       <div className="hero"></div>
       {/* right side glow effect */}

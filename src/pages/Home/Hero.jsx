@@ -17,7 +17,7 @@ const Hero = () => {
       <Container>
         {/* content */}
         <div className="md:flex md:justify-between justify-center gap-6 items-center px-4 space-y-6 h-[70vh]">
-          <div>
+          <div data-aos="fade-right">
             <SparklesText className="text-white tracking-wide">
               Hello
             </SparklesText>
@@ -36,7 +36,7 @@ const Hero = () => {
             </div>
           </div>
           {/* banner img */}
-          <div>
+          <div data-aos="fade-left">
             <img
               src={heroImg}
               alt="hero img"

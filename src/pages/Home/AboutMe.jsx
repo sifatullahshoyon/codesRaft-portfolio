@@ -1,10 +1,14 @@
+import { NumberTicker } from "../../components/magicui/number-ticker";
 import Container from "../../components/shared/Container";
 
 const AboutMe = () => {
   return (
     <section>
       <Container>
-        <div className="md:flex md:flex-row items-center justify-between gap-4 px-4 mt-16 md:mt-0">
+        <div
+          data-aos="fade-up"
+          className="md:flex md:flex-row items-center justify-between gap-4 px-4 mt-16 md:mt-0"
+        >
           {/* experience */}
           <div className="relative w-[30%]">
             {/* absolute text */}
@@ -14,13 +18,25 @@ const AboutMe = () => {
             {/* total experience */}
             <div className="flex flex-wrap justify-between items-center gap-4  w-full">
               <div className="flex flex-col items-center z-20">
-                <h4 className="text-3xl text-[#5454D4] font-bold pb-2">7+</h4>
+                <div className="flex items-center gap-0.5">
+                  <NumberTicker
+                    value={7}
+                    className="text-3xl text-[#5454D4] font-bold pb-2"
+                  ></NumberTicker>
+                  <p className="text-4xl text-[#5454D4] font-bold">+</p>
+                </div>
                 <p className="text-[#ffffffbe]">
                   Years of <br /> Experience.
                 </p>
               </div>
               <div className="flex flex-col items-center ">
-                <h4 className="text-3xl text-[#5454D4] font-bold pb-2">199+</h4>
+                <div className="flex items-center gap-0.5">
+                  <NumberTicker
+                    value={199}
+                    className="text-3xl text-[#5454D4] font-bold pb-2"
+                  ></NumberTicker>
+                  <p className="text-4xl text-[#5454D4] font-bold">+</p>
+                </div>
                 <p className="text-[#ffffffbe]">
                   Satisfied <br /> Clients.
                 </p>
