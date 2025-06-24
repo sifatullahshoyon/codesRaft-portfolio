@@ -1,12 +1,49 @@
-# React + Vite
+# Portfolio Website - CodesRaft Internship Task
 
-This template provides a minimal setup to get React working in Vite with HMR and some ESLint rules.
+- [Live Link](https://codes-raft-portfolio.vercel.app/)
 
-Currently, two official plugins are available:
+A modern portfolio website built with React + Vite and shadcn UI, inspired by Dribbble designs for CodesRaft Web Developer Internship.
 
-- [@vitejs/plugin-react](https://github.com/vitejs/vite-plugin-react/blob/main/packages/plugin-react) uses [Babel](https://babeljs.io/) for Fast Refresh
-- [@vitejs/plugin-react-swc](https://github.com/vitejs/vite-plugin-react/blob/main/packages/plugin-react-swc) uses [SWC](https://swc.rs/) for Fast Refresh
+## ✨ Features
 
-## Expanding the ESLint configuration
+- ⚡ **Vite + React** - Ultra-fast development environment
+- 🎨 **shadcn UI** - Beautiful, accessible components for FAQ page
+- ✍️ **Blog System** - Complete blog page with posts
+- ❓ **Interactive FAQ** - Accordion-style questions with shadcn
+- 🌐 **Multi-page Routing** - React Router implementation
+- 📱 **Fully Responsive** - Tailwind CSS for all screen sizes
 
-If you are developing a production application, we recommend using TypeScript with type-aware lint rules enabled. Check out the [TS template](https://github.com/vitejs/vite/tree/main/packages/create-vite/template-react-ts) for information on how to integrate TypeScript and [`typescript-eslint`](https://typescript-eslint.io) in your project.
+## 🛠 Tech Stack
+
+**Core:**
+
+- [React](https://reactjs.org/) + [Vite](https://vitejs.dev/)
+- [Tailwind CSS](https://tailwindcss.com/)
+- [React Router](https://reactrouter.com/)
+
+**UI Libraries:**
+
+- [shadcn UI](https://ui.shadcn.com/) (FAQ Page)
+
+## 📄 Pages Structure
+
+1. **Home** - Hero section & featured work
+2. **About** - Bio, skills & experience
+3. **Projects** - Case studies & portfolio items
+4. **Blog** - (New) Article listings with markdown support
+5. **FAQ** - (New) Interactive Q&A with shadcn accordion
+6. **Contact** - Reach out form
+
+## 🚀 Installation
+
+```bash
+# Clone repository
+git clone https://github.com/yourusername/portfolio-codesraft.git
+
+# Install dependencies
+cd portfolio-codesraft
+npm install
+
+# Run development server
+npm run dev
+```
