@@ -23,7 +23,7 @@ A modern portfolio website built with React + Vite and shadcn UI, inspired by Dr
 
 **UI Libraries:**
 
-- [shadcn UI](https://ui.shadcn.com/) (FAQ Page)
+- [shadcn UI](https://ui.shadcn.com/)
 
 ## 📄 Pages Structure
 
@@ -38,7 +38,7 @@ A modern portfolio website built with React + Vite and shadcn UI, inspired by Dr
 
 ```bash
 # Clone repository
-git clone https://github.com/yourusername/portfolio-codesraft.git
+git clone https://github.com/sifatullahshoyon/codesRaft-portfolio.git
 
 # Install dependencies
 cd portfolio-codesraft
