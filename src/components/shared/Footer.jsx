@@ -47,18 +47,8 @@ export function Footer() {
                   </Link>
                 </li>
                 <li>
-                  <Link to="/" className="text-[#ffffffbe]">
-                    Projects
-                  </Link>
-                </li>
-                <li>
-                  <Link to="/" className="text-[#ffffffbe]">
-                    Blogs
-                  </Link>
-                </li>
-                <li>
-                  <Link to="/" className="text-[#ffffffbe]">
-                    Contact Me
+                  <Link to="/blog" className="text-[#ffffffbe]">
+                    Blog
                   </Link>
                 </li>
               </ul>
